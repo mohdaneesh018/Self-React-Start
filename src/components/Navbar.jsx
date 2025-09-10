@@ -5,15 +5,15 @@ const Navbar = () => {
     function redirecttoLogin() {
         router("/login")
     }
-    function redirecttoProfile() {
-        router("/profile")
+    function redirecttohome() {
+        router("/")
     }
 
     return (
         <div>
+            <button onClick={redirecttohome}>Home</button>
             <button onClick={() => router("/register")}>Register</button>
             <button onClick={redirecttoLogin}>Login</button>
-            <button onClick={redirecttoProfile}>Profile</button>
         </div>
     )
 }

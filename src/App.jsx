@@ -5,6 +5,8 @@ import Profile from './Pages/Profile';
 import Register from './Pages/Register';
 import Login from './Pages/Login'; 
 import Navbar from './components/Navbar';
+import UseState from './Pages/10-09/UseState';
+import UseEffect from './Pages/10-09/UseEffect';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path='/profile' element={<Profile />} />
         <Route path='/register' element={<Register />} />
         <Route path='/login' element={<Login />} />
+        <Route path='/use-state' element={<UseState />} />
+        <Route path='/use-effect' element={<UseEffect />} />
       </Routes>
     </div>
   );
