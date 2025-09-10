@@ -29,9 +29,9 @@ const UseEffect = () => {
 
     return (
         <div>
-            <h2>{counter}</h2>
+            <h2>Counter = {counter}</h2>
             <button onClick={() => setCounter(counter + 1)}>Increament</button>
-            <h2>{counter2}</h2>
+            <h2>Counter2 = {counter2}</h2>
             <button onClick={() => setCounter2(counter2 + 1)}>Increament</button>
         </div >
     )
